@@ -1,34 +1,57 @@
-\documentclass[a4paper,11pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%
+% 		proyecto final
+%%%%%%%%%%%%%%%%%%%%%%%
+%-----------------------------------------------------------
+% Instrucciones de compilación para TexShop
+% cmd + T	: latex
+% cmd + ^ + B	: bibtex
+% cmd + T	: latex: añade seccion referencias
+% cmd + T	: latex: añade referencias cruzadas
+%-----------------------------------------------------------
 
+\documentclass[a4paper,11pt]{article}
+%-----------------------------------------------------------
+% Paquetes
+%-----------------------------------------------------------
 %\usepackage[spanish, english]{babel}
 \usepackage[spanish]{babel}
 %\usepackage[utf8]{inputenc}
 %\usepackage[applemac]{inputenc}
 \usepackage[latin1]{inputenc}
-
 \usepackage{anysize}
-\marginsize{2cm}{4cm}{2cm}{2cm}
+\usepackage{natbib}
 
+%-----------------------------------------------------------
+% Nuevos Commandos
+%-----------------------------------------------------------
+% Keywords command
+\providecommand{\keywords}[1]
+{
+  \small	
+  \textbf{\textit{Palabras clave---}} #1
+}
+
+%-----------------------------------------------------------
+% El Documento
+%-----------------------------------------------------------
+%--- Márgenes
+\marginsize{2cm}{2cm}{2cm}{2cm}
 \begin{document}
-
-%--- Cabecera
+%--- Título
 \title{Observación de la interacción aerosol-nube}
-%\author{Diego Bermejo-Pantale{\'on}}
+%--- Autores
 \author{Diego Bermejo-Pantaleón, Otro Autor, Otro Autor Más}
-%\date{\today}
 \maketitle
+%--- Resumen
 \begin{abstract}
 En este trabajo presentamos una nueva metodología de observación de la interacción aerosol -nube basada en medidas de lídar, radar y ceilómetro incluidas en la red europea Cloudnet.
 \end{abstract}
-
-\begin{keyword}
-aerosol \sep liquid clouds \sep aci
-\end{keyword}
+%--- Palabras Clave
+\keywords{aerosol, liquid clouds, aci}
 
 %--- Cuerpo
 \section*{Introducción}
 La interacción aerosol-nube se ha destapado como uno de los mecanismos esenciales para entender el balance energético en la baja atmósfera \cite{IPCC2014}. 
-
 
 \section{Methodology}
 Here, I add info to cite \cite[additional info]{Bermejo-Pantaleon2018}.
@@ -43,7 +66,8 @@ Here, I do not show a cite \nocite{Bermejo-Pantaleon2008a} a reference, but it a
 % add all bibitems to bibliography
 \nocite{*}
 
+%--- Bibliografia
 \bibliography{bibliografia}
-\bibliographystyle{} %{plain}ieeetr, agu08, plain
+\bibliographystyle{astron} %{plain}ieeetr, agu08, plain
 
 \end{document}
