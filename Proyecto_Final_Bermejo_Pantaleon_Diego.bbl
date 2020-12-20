@@ -1,5 +1,9 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Feingold et~al.}{2003}]{Feingold2003}
+Feingold, G., Eberhard, W.~L., Veron, D.~E., and Previdi, M.: 2003,
+\newblock {\em Geophysical Research Letters} {\bf 30(6)}, 19
+
 \bibitem[\protect\astroncite{IPCC}{2014}]{IPCC2014}
 IPCC: 2014,
 \newblock {\em {Cambio clim{\'{a}}tico 2014: Informe de S{\'{i}}ntesis}}
@@ -7,5 +11,8 @@ IPCC: 2014,
 \bibitem[\protect\astroncite{Sarna and Russchenberg}{2016}]{Sarna2016}
 Sarna, K. and Russchenberg, H.~W.: 2016,
 \newblock {\em Atmospheric Measurement Techniques} {\bf 9(3)}, 1039
+
+\bibitem[\protect\astroncite{Twomey and Warner}{1967}]{Twomey1967}
+Twomey, S. and Warner, J.: 1967
 
 \end{thebibliography}

@@ -3,48 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Proyecto_Final_Bermejo_Pantaleon_Diego.aux
 The style file: astron.bst
 Database file #1: bibliografia.bib
-Warning--I didn't find a database entry for "Bermejo-Pantaleon2018"
-Warning--I didn't find a database entry for "Bermejo-Pantaleon2008a"
 Warning--empty publisher in IPCC2014
-You've used 2 entries,
+Warning--empty journal in Twomey1967
+You've used 4 entries,
             2251 wiz_defined-function locations,
-            496 strings with 3789 characters,
-and the built_in function-call counts, 643 in all, are:
-= -- 61
-> -- 20
-< -- 2
-+ -- 6
-- -- 6
-* -- 59
-:= -- 116
+            506 strings with 4042 characters,
+and the built_in function-call counts, 1321 in all, are:
+= -- 123
+> -- 56
+< -- 3
++ -- 18
+- -- 18
+* -- 127
+:= -- 238
 add.period$ -- 0
-call.type$ -- 2
-change.case$ -- 11
-chr.to.int$ -- 2
-cite$ -- 3
-duplicate$ -- 28
-empty$ -- 45
-format.name$ -- 10
-if$ -- 121
+call.type$ -- 4
+change.case$ -- 25
+chr.to.int$ -- 4
+cite$ -- 6
+duplicate$ -- 54
+empty$ -- 84
+format.name$ -- 26
+if$ -- 245
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 11
-num.names$ -- 6
-pop$ -- 13
+missing$ -- 5
+newline$ -- 18
+num.names$ -- 12
+pop$ -- 28
 preamble$ -- 1
-purify$ -- 13
+purify$ -- 29
 quote$ -- 0
-skip$ -- 22
+skip$ -- 43
 stack$ -- 0
-substring$ -- 37
-swap$ -- 5
+substring$ -- 68
+swap$ -- 9
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
-warning$ -- 1
-while$ -- 5
+type$ -- 22
+warning$ -- 2
+while$ -- 10
 width$ -- 0
-write$ -- 23
-(There were 3 warnings)
+write$ -- 42
+(There were 2 warnings)

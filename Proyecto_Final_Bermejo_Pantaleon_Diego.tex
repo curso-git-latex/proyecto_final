@@ -41,7 +41,7 @@
 
 \begin{document}
 %--- Título
-\title{Observación de la interacción aerosol-nube}
+\title{Observación de la interacción aerosol-nube en Granada}
 %--- Autores
 \author{Diego Bermejo-Pantaleón, Otro Autor, Otro Autor Más}
 \maketitle
@@ -51,28 +51,32 @@
 %\href{https://github.com/curso-git-latex/proyecto_final.git}{\verb"https://github.com/curso-git-latex/proyecto_final.git"}
 \verb"https://github.com/curso-git-latex/proyecto_final.git"
 \end{center}
-En este trabajo presentamos una nueva metodología de observación de la interacción aerosol -nube basada en medidas de lídar, radar y ceilómetro incluidas en la red europea Cloudnet.
+\noindent En este trabajo presentamos una nueva metodología de observación de la interacción aerosol -nube basada en medidas de lídar, radar y ceilómetro incluidas en la red europea Cloudnet.
 \end{abstract}
 %--- Palabras Clave
 \keywords{aerosol, nubes líquidas, aci}
 
-%--- Cuerpo
+%--- Introducción
 \section*{Introducción}
-La interacción aerosol-nube se ha destapado como uno de los mecanismos esenciales para cuantificar el balance energético en la baja atmósfera [\cite{IPCC2014}]. Entender esta interacción se ha convertido en uno de los problemas a resolver dentro de la física de la baja atmósfera [\cite{Sarna2016}]. En este trabajo, presentamos una modificación de la metodología de \cite{Sarna2016} aplicada a la estación de Granada.
+La interacción aerosol-nube se ha destapado como uno de los mecanismos esenciales para cuantificar el balance energético en la baja atmósfera \citep{IPCC2014}. Entender esta interacción se ha convertido en uno de los problemas a resolver dentro de la física de la baja atmósfera \citep{Sarna2016}. En este trabajo, presentamos una modificación de la metodología de \cite{Sarna2016} aplicada a la estación de Granada.
+%--- Estado del arte
+\section*{Estado del arte}
+Dada una nube líquida, se postula una relación experimental entre la concentración de gotas y la concentración de aerosoles debajo de ella \citep{Twomey1967} (Ecuación \ref{eq:nd_na}). \cite{Feingold2003} propone un índice experimental para encontrar la correlación entre la concentración de gotas de nube y la concentración de aerosoles (Ecuación \ref{eq:ACI_N}). Con medidas de radar encontramos concentración de gotas de nube y, con medidas de lídar y de ceilómetro, encontramos concentración de aerosoles.
+%--- Imagenes y Tablas
+\section*{Imágenes y Tablas}
 
-\section*{Methodology}
-%Dada una nube líquida, se postula una relación experimental entre la concentración de gotas y la concentración de aerosoles debajo de ella [\cite{}]:
-
-
-\section{Results}
-Here, I do not show a cite \nocite{Bermejo-Pantaleon2008a} a reference, but it appears in the. bibliography.
-
-\section{Discussion}
-
-\section{Conclussions}
-
-% add all bibitems to bibliography
-\nocite{*}
+%--- Fórmulas
+\section*{Fórmulas}
+\noindent Relación entre concentración de gotas de nubes y concentración de aerosoles:
+\begin{equation}
+N_d = N^{\gamma}_a
+\label{eq:nd_na}
+\end{equation}
+Índice ACI:
+\begin{equation}
+ACI_N = \frac{d \, ln \, N_d}{d \, ln \, \alpha}, 0 < ACI_N < 1
+\label{eq:ACI_N}
+\end{equation}
 
 %--- Bibliografia
 \bibliography{bibliografia}
