@@ -20,6 +20,8 @@
 \usepackage[latin1]{inputenc}
 \usepackage{anysize}
 \usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{verbatim}
 
 %-----------------------------------------------------------
 % Nuevos Commandos
@@ -36,6 +38,7 @@
 %-----------------------------------------------------------
 %--- Márgenes
 \marginsize{2cm}{2cm}{2cm}{2cm}
+
 \begin{document}
 %--- Título
 \title{Observación de la interacción aerosol-nube}
@@ -44,17 +47,22 @@
 \maketitle
 %--- Resumen
 \begin{abstract}
+\begin{center}
+%\href{https://github.com/curso-git-latex/proyecto_final.git}{\verb"https://github.com/curso-git-latex/proyecto_final.git"}
+\verb"https://github.com/curso-git-latex/proyecto_final.git"
+\end{center}
 En este trabajo presentamos una nueva metodología de observación de la interacción aerosol -nube basada en medidas de lídar, radar y ceilómetro incluidas en la red europea Cloudnet.
 \end{abstract}
 %--- Palabras Clave
-\keywords{aerosol, liquid clouds, aci}
+\keywords{aerosol, nubes líquidas, aci}
 
 %--- Cuerpo
 \section*{Introducción}
-La interacción aerosol-nube se ha destapado como uno de los mecanismos esenciales para entender el balance energético en la baja atmósfera \cite{IPCC2014}. 
+La interacción aerosol-nube se ha destapado como uno de los mecanismos esenciales para cuantificar el balance energético en la baja atmósfera [\cite{IPCC2014}]. Entender esta interacción se ha convertido en uno de los problemas a resolver dentro de la física de la baja atmósfera [\cite{Sarna2016}]. En este trabajo, presentamos una modificación de la metodología de \cite{Sarna2016} aplicada a la estación de Granada.
 
-\section{Methodology}
-Here, I add info to cite \cite[additional info]{Bermejo-Pantaleon2018}.
+\section*{Methodology}
+%Dada una nube líquida, se postula una relación experimental entre la concentración de gotas y la concentración de aerosoles debajo de ella [\cite{}]:
+
 
 \section{Results}
 Here, I do not show a cite \nocite{Bermejo-Pantaleon2008a} a reference, but it appears in the. bibliography.
@@ -68,6 +76,6 @@ Here, I do not show a cite \nocite{Bermejo-Pantaleon2008a} a reference, but it a
 
 %--- Bibliografia
 \bibliography{bibliografia}
-\bibliographystyle{astron} %{plain}ieeetr, agu08, plain
+\bibliographystyle{astron}
 
 \end{document}
