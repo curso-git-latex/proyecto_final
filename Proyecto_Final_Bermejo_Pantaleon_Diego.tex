@@ -14,7 +14,7 @@
 % Paquetes
 %-----------------------------------------------------------
 %\usepackage[spanish, english]{babel}
-\usepackage[spanish]{babel}
+\usepackage[spanish, es-tabla]{babel}
 %\usepackage[utf8]{inputenc}
 %\usepackage[applemac]{inputenc}
 \usepackage[latin1]{inputenc}
@@ -23,6 +23,10 @@
 \usepackage{hyperref}
 \usepackage{verbatim}
 \usepackage[pdftex]{graphicx}
+\usepackage{booktabs}
+\usepackage{caption} 
+\captionsetup[table]{skip=5pt}
+
 
 %-----------------------------------------------------------
 % Nuevos Commandos
@@ -35,7 +39,7 @@
 }
 % Entorno Figura
 \newenvironment{grafico}[6]{
-\begin{figure}[!htb]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[angle=#5, width=#6cm]
 {#1} % Nombre de Archivo
@@ -73,15 +77,26 @@
 La interacción aerosol-nube se ha destapado como uno de los mecanismos esenciales para cuantificar el balance energético en la baja atmósfera \citep{IPCC2014}. Entender esta interacción se ha convertido en uno de los problemas a resolver dentro de la física de la baja atmósfera \citep{Sarna2016}. En este trabajo, presentamos una modificación de la metodología de \cite{Sarna2016} aplicada a la estación Cloudnet de Granada.
 %--- Estado del arte
 \section*{Estado del arte}
-Dada una nube líquida, se postula una relación experimental entre la concentración de gotas y la concentración de aerosoles debajo de ella \citep{Twomey1967} (Ecuación \ref{eq:nd_na}). \cite{Feingold2003} propone un índice experimental para encontrar la correlación entre la concentración de gotas de nube y un proxy de la concentración de aerosoles (Ecuación \ref{eq:ACI_N}). Con medidas de radar (\ref{fig:Z}) encontramos concentración de gotas de nube y, con medidas de lídar y de ceilómetro (\ref{fig:beta}), encontramos un proxy para la concentración de aerosoles.
+Dada una nube líquida, se postula una relación experimental entre la concentración de gotas y la concentración de aerosoles debajo de ella \citep{Twomey1967} (Ecuación \ref{eq:nd_na}). \cite{Feingold2003} propone un índice experimental para encontrar la correlación entre la concentración de gotas de nube y un proxy de la concentración de aerosoles (Ecuación \ref{eq:ACI_N}). Con medidas de radar (Figura \ref{fig:Z}) encontramos concentración de gotas de nube y, con medidas de lídar y de ceilómetro (Figura \ref{fig:beta}), encontramos un proxy para la concentración de aerosoles. Con ellas, un valor para ACI puede ser estimado.
 
 %--- Imagenes y Tablas
 \section*{Imágenes y Tablas}
-%--- Figura Z: 
-Reflectividad medida con el radar:
 \begin{grafico}{imagen_Z.png}{Z}{Reflectividad medida con radar.}{fig:Z}{0}{8}\end{grafico}
-Retrodispersión atenuada medida con el lídar
 \begin{grafico}{imagen_beta.png}{beta}{Retrodispersión atenuada medida con lidar.}{fig:beta}{0}{8}\end{grafico}
+\begin{table}\begin{center}
+\caption[ACI$_N$]{\small ACI$_N$.}
+\label{tab:escenarios_aci}
+\begin{tabular}[!]{l c}
+\hline
+ Día				&      ACI$_N$  \\
+ \hline
+1-Enero-2020 		&	0.5     	\\
+1-Febrero-2020 	&	0.8     	\\
+1-Marzo-2020 		&	0.9     	\\
+\ldots			& 	\ldots	\\
+\hline
+\end{tabular}
+\end{center} \end{table}
 
 %--- Fórmulas
 \section*{Fórmulas}

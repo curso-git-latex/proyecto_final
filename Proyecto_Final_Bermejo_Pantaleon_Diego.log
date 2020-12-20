@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  20 DEC 2020 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  20 DEC 2020 19:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -212,30 +212,67 @@ File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen126
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen127
+\captionmargin@=\dimen128
+\captionwidth=\dimen129
+\caption@tempdima=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
+)
+\c@ContinuedFloat=\count105
+Package caption Info: hyperref package is loaded.
+)
 (./Proyecto_Final_Bermejo_Pantaleon_Diego.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
 \openout1 = `Proyecto_Final_Bermejo_Pantaleon_Diego.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Info: Redefining \. on input line 54.
-LaTeX Info: Redefining \% on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
 \AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 58.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -243,11 +280,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count101
+\c@section@level=\count106
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
 
 (./Proyecto_Final_Bermejo_Pantaleon_Diego.out)
 (./Proyecto_Final_Bermejo_Pantaleon_Diego.out)
@@ -257,16 +294,16 @@ LaTeX Info: Redefining \nameref on input line 54.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
-\scratchdimen=\dimen114
+\scratchcounter=\count107
+\scratchdimen=\dimen134
 \scratchbox=\box27
-\nofMPsegments=\count103
-\nofMParguments=\count104
+\nofMPsegments=\count108
+\nofMParguments=\count109
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count105
-\MPscratchDim=\dimen115
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen135
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -285,118 +322,123 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 61.
+(Font)              <12> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 61.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 61.
+(Font)              <6> on input line 65.
 
 <imagen_Z.png, id=18, 383.4325pt x 191.71625pt>
 File: imagen_Z.png Graphic file (type png)
  <use imagen_Z.png>
-Package pdftex.def Info: imagen_Z.png used on input line 82.
+Package pdftex.def Info: imagen_Z.png used on input line 84.
 (pdftex.def)             Requested size: 383.43156pt x 191.71577pt.
 
 <imagen_beta.png, id=20, 344.28625pt x 178.6675pt>
 File: imagen_beta.png Graphic file (type png)
  <use imagen_beta.png>
-Package pdftex.def Info: imagen_beta.png used on input line 84.
+Package pdftex.def Info: imagen_beta.png used on input line 85.
 (pdftex.def)             Requested size: 344.2854pt x 178.66705pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 89.
+(Font)              <7> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 89.
+(Font)              <5> on input line 87.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 89.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 92.
+(babel)             in language append on input line 107.
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 n_Z.png>] (./Proyecto_Final_Bermejo_Pantaleon_Diego.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 103.
+(babel)             in language append on input line 118.
  [2 <./imagen_beta.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  (./Proyecto_Final_Bermejo_Pantaleon_Diego.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `Proyecto_Final_Bermejo_Pantaleon_Diego.out' 
 has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 6331 strings out of 492995
- 92534 string characters out of 6132705
- 188357 words of memory out of 5000000
- 9821 multiletter control sequences out of 15000+600000
- 8761 words of font info for 31 fonts, out of 8000000 for 9000
+ 7426 strings out of 492995
+ 112345 string characters out of 6132705
+ 211142 words of memory out of 5000000
+ 10905 multiletter control sequences out of 15000+600000
+ 9377 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,30p,635b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,45p,698b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Proyecto_Final_Bermejo_Pantaleon_Diego.pdf (2 pages, 183676 b
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Proyecto_Final_Bermejo_Pantaleon_Diego.pdf (2 pages, 191757 b
 ytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
